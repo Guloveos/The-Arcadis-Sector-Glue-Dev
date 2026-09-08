@@ -1,6 +1,6 @@
 ﻿- type: guideEntry
   id: Security
-  name: guide-entry-security
+  name: guide-entry-security-ARC
   text: "/ServerInfo/Guidebook/Security/Security.xml"
   children:
   - Forensics

@@ -1,0 +1,56 @@
+- type: guideEntry
+  id: TAS14
+  name: guide-entry-AS14
+  text: "/ServerInfo/_ARC/Guidebook/TAS.xml"
+  priority: -1
+  children: # note: children may be in other files. When adding to this, update the priority of anything after.
+  - Bank-ARC
+  - Piloting-ARC
+#  - Survival # Moved out from Station and Shifts section (upstream file)
+#  - Expeditions
+  - CargoHauling-ARC
+#  - Shipyard
+  - PreflightChecklist-ARC
+
+- type: guideEntry
+  id: Bank-ARC
+  name: guide-entry-bank
+  text: "/ServerInfo/_ARC/Guidebook/Bank.xml"
+  priority: 0
+
+- type: guideEntry
+  id: Piloting-ARC
+  name: guide-entry-piloting
+  text: "/ServerInfo/_ARC/Guidebook/Piloting.xml"
+  priority: 1
+
+- type: guideEntry
+  id: PreflightChecklist-ARC
+  name: guide-entry-preflightchecklist
+  text: "/ServerInfo/_ARC/Guidebook/PreflightChecklist.xml"
+  priority: 2
+
+- type: guideEntry
+  id: CargoHauling-ARC
+  name: guide-entry-cargo-hauling
+  text: "/ServerInfo/_ARC/Guidebook/CargoHauling.xml"
+  priority: 3
+
+#- type: guideEntry
+#  id: Shipyard
+#  name: guide-entry-shipyard
+#  text: "/ServerInfo/_NF/Guidebook/Shipyard.xml"
+#  priority: 7
+#  children:
+#  - ShipyardCivilian
+#  - ShipyardStaff
+#  - ShipyardMedical
+#  - ShipyardExpedition
+#  - ShipyardNFSD
+#  - ShipyardScrap
+#
+# Hiring children
+#- type: guideEntry
+#  id: Interviews
+#  name: guide-entry-interviews
+#  text: "/ServerInfo/_NF/Guidebook/Interviews.xml"

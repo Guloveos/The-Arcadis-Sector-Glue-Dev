@@ -1,0 +1,32 @@
+<Document>
+  # The other side of the wormhole
+
+Hello CREW MEMBER NAME. Your crew, 22B. Has been stationed on the other side of the new artifical wormhole.
+
+[color=#33bbff]If you need assistance, you can use the company issued radio to ask for it from your superior.[/color]
+
+## Economy
+  <Box>
+    <GuideEntityEmbed Entity="ComputerBankATM"/>
+    <GuideEntityEmbed Entity="SpaceCash1000"/>
+    <GuideEntityEmbed Entity="ComputerShipyard"/>
+  </Box>
+  Any money that you make is [bold]yours[/bold]*, and will be available in future shifts if deposited at a [color=#44cc00]Galactic Bank ATM[/color] on Arcadis Station
+
+If you are unsure on how to make money:
+- Join a ship's crew, use the company issued radio to ask if anyone needs extra crew, and work to help your captain.
+- Use a [color=#cccc00]shipyard console[/color] to purchase your own ship, you will be paid for scouting, mapping, and researching this new sector.
+
+## Amenities
+  <Box>
+    <GuideEntityEmbed Entity="VendingMachineAstroVend"/>
+    <GuideEntityEmbed Entity="VendingMachineAmmo"/>
+    <GuideEntityEmbed Entity="MachineCryoSleepPod"/>
+  </Box>
+  Provisions are available from vendors on Arcadis Station, but most amenities should be offered by other crewmembers on station or by non offical partys that own a ship in th enew sector.
+
+Be sure to stock up at the Trade Depot if going out on an extended voyage, and take advantage of the [color=#33bbff]medical insurance tracker[/color] in your loadout, or from the NanoMed vendor in medbay.
+
+Shifts on this side of the wormhole typically last for [color=#33bbff]six hours[/color].
+If you need to end your shift early or take a break, use the [color=#33bbff]cryo sleep chambers[/color] in the medbay on Arcadis Station.
+</Document>

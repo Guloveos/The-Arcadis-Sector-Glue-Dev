@@ -1,5 +1,5 @@
 [game]
-desc = "Frontier Station is a unique twist on the traditional Space Station gameplay. On Frontier, everyone can be the captain of their own ship to venture forth and explore space beyond the station! Salvage, mine, research, trade, explore, or pirate your way to riches on the vast Frontier!"
+desc = "The Arcadis Sector is a roleplay heavy server with a large storyline that can be shaped by even the smallest actions a player makes. The server is set on the other side of an artifical wormhole that went wrong during it's formation. The crew of 22B (That's you!) are tasked with running a space station, scouting, mining, fighting, and most of all putting a presence in this new sector."
 lobbyenabled = true
 lobbyduration = 180
 
@@ -13,13 +13,9 @@ show_reason = true
 custom_reason = "You have not played on a Frontier servers long enough to connect to this server. Please play on Frontier servers until you have more playtime."
 
 [infolinks]
-discord    = "https://discord.gg/frontier"
-github     = "https://github.com/new-frontiers-14/frontier-station-14"
-website    = "https://www.frontierstation14.com"
-wiki       = "https://frontierstation.wiki.gg"
-patreon    = "https://patreon.com/FrontierStation14"
-bug_report = "https://github.com/new-frontiers-14/frontier-station-14/issues"
-appeal     = "https://discord.gg/akvNtmRd7e"
+discord    = "https://discord.gg/yzaRGkNVXj"
+github     = "https://github.com/The-Arcadis-Team/The-Arcadis-Sector"
+bug_report = "https://github.com/The-Arcadis-Team/The-Arcadis-Sector/issues"
 
 [net]
 max_connections = 1024
@@ -41,8 +37,8 @@ allow_multi_server_play = false
 min_players_sharing_connection = 2
 
 [server]
-id = "frontier"
-rules_file = "FrontierRuleset"
+id = "The-Arcadis-Sector"
+rules_file = "ArcadisRuleset"
 uptime_restart_minutes = 0
 
 [discord]
