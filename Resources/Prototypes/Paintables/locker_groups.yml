@@ -38,7 +38,7 @@
     nfsd-brigmedic: LockerNfsdBrigmedic # Frontier
     nfsd-gold: LockerNfsdSergeant # Frontier
     nfsd-sheriff: LockerNfsdSheriff # Frontier
-    station-representative: LockerStationRepresentative # Frontier
+#    station-representative: LockerStationRepresentative # Frontier
     fsb: ClosetFsbEva # Frontier
     syndicate: LockerSyndicatePersonal # Frontier
 

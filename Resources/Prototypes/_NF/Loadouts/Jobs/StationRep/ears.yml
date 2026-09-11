@@ -7,9 +7,9 @@
   groupBy: "EarHeadset"
 
 # region wristsets
-- type: loadout
-  id: StationRepNFClothingWristsetSr
-  price: 0
-  equipment:
-    ears: NFClothingWristsetSr
-  groupBy: "EarWristset"
+#- type: loadout
+#  id: StationRepNFClothingWristsetSr
+#  price: 0
+#  equipment:
+#    ears: NFClothingWristsetSr
+#  groupBy: "EarWristset"

@@ -5,19 +5,19 @@
     jumpsuit: ClothingUniformJumpsuitSr
   groupBy: "FormalJumpsuits"
 
-- type: loadout
-  id: StationRepClothingUniformJumpskirtSr
-  price: 0
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSr
-  groupBy: "FormalJumpskirts"
+#- type: loadout
+#  id: StationRepClothingUniformJumpskirtSr
+#  price: 0
+#  equipment:
+#    jumpsuit: ClothingUniformJumpskirtSr
+#  groupBy: "FormalJumpskirts"
 
-- type: loadout
-  id: StationRepClothingUniformJumpsuitMilitarySr
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
-  price: 0
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitMilitarySr
-  groupBy: "militaryJumpsuit"
+#- type: loadout
+#  id: StationRepClothingUniformJumpsuitMilitarySr
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: ContractorT3
+#  price: 0
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitMilitarySr
+#  groupBy: "militaryJumpsuit"

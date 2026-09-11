@@ -123,16 +123,16 @@
     sprite: _NF/Structures/Wallmounts/posters.rsi
     state: nf_poster12_legit
 
-- type: entity
-  parent: PosterBase
-  id: NFPosterLegitFrontierSr
-  name: "Station Representative"
-  description: |-
-    The poster depicts a determined-looking station representative. The text reads: “Serving the Frontier, serving you.”
-  components:
-  - type: Sprite
-    sprite: _NF/Structures/Wallmounts/posters.rsi
-    state: nf_poster13_legit
+#- type: entity
+#  parent: PosterBase
+#  id: NFPosterLegitFrontierSr
+#  name: "Station Representative"
+#  description: |-
+#    The poster depicts a determined-looking station representative. The text reads: “Serving the Frontier, serving you.”
+#  components:
+#  - type: Sprite
+#    sprite: _NF/Structures/Wallmounts/posters.rsi
+#    state: nf_poster13_legit
 
 - type: entity
   parent: PosterBase

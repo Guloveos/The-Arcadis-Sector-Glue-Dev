@@ -20,13 +20,13 @@
   components:
   - type: AccessReader
 
-- type: entity
-  parent: [ SuitStorageBase, StorageFillEVASuitSr ]
-  id: SuitStorageEVASr
-  suffix: EVA, Station Representative
-  components:
-  - type: AccessReader
-    access: [["HeadOfPersonnel"]]
+#- type: entity
+#  parent: [ SuitStorageBase, StorageFillEVASuitSr ]
+#  id: SuitStorageEVASr
+#  suffix: EVA, Station Representative
+#  components:
+#  - type: AccessReader
+#    access: [["HeadOfPersonnel"]]
 
 - type: entity
   parent: [ SuitStorageBase, StorageFillEVASuitStc ]

@@ -8796,13 +8796,13 @@ entities:
     - type: Transform
       pos: -3.5,2.5
       parent: 179
-- proto: SpawnPointStationRepresentative
-  entities:
-  - uid: 1454
-    components:
-    - type: Transform
-      pos: -3.5,2.5
-      parent: 179
+#- proto: SpawnPointStationRepresentative
+#  entities:
+#  - uid: 1454
+#    components:
+#    - type: Transform
+#      pos: -3.5,2.5
+#      parent: 179
 - proto: SpawnPointStc
   entities:
   - uid: 486

@@ -41,11 +41,11 @@
     state: SecurityOfficer
   jobName: job-name-security-guard
 
-- type: jobIcon
-  parent: JobIconHeadOfPersonnel
-  id: JobIconStationRepresentative
-  jobName: job-name-station-representative
-  allowSelection: false # Frontier: no impersonating command staff, literally 1984
+#- type: jobIcon
+#  parent: JobIconHeadOfPersonnel
+#  id: JobIconStationRepresentative
+#  jobName: job-name-station-representative
+#  allowSelection: false # Frontier: no impersonating command staff, literally 1984
 
 - type: jobIcon
   parent: JobIcon

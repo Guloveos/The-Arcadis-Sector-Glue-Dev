@@ -80,7 +80,7 @@
     - id: NFPosterLegitPaperPushers
     - id: NFPosterLegitRipleyAplu
     - id: NFPosterLegitFrontierSector
-    - id: NFPosterLegitFrontierSr
+    #- id: NFPosterLegitFrontierSr
     - id: NFPosterLegitFrontierStc
     - id: NFPosterLegitFrontierCats
     - id: NFPosterLegitFrontierSheriffDepartment

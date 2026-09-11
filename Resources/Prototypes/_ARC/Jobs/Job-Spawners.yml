@@ -1,0 +1,7 @@
+- type: entity
+  id: SpawnPointStationCommander
+  parent: SpawnPointHeadOfPersonnel
+  name: station commander
+  components:
+  - type: SpawnPoint
+    job_id: StationCommander

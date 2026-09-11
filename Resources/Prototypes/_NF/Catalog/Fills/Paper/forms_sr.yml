@@ -4,33 +4,33 @@
 # These forms should be kept up-to-date with changes to Space Law.
 
 # Filled Folder
-- type: entity
-  id: BoxFolderSr
-  parent: BoxFolderBase
-  name: SR folder
-  description: A folder filled with paperwork templates.
-  suffix: Forms
-  components:
-  - type: Sprite
-    layers:
-    - state: folder-colormap
-      color: "#1f6626ff"
-    - state: folder-base
-  - type: StorageFill
-    contents:
-    - id: PaperWrittenFrontierEmployment
-    - id: PaperWrittenFrontierEmployeePayHistory
-    - id: PaperWrittenFrontierFundRequisition
-    - id: PaperWrittenFrontierShuttleTitleChange
-    - id: PaperWrittenFrontierAuthorization
-    - id: PaperWrittenFrontierShuttleDerelict
-    - id: PaperWrittenFrontierContrabandAmnesty
-    - id: PaperWrittenFrontierContrabandTurnover
-    - id: PaperWrittenFrontierContrabandPermit
-    - id: Paper
-      prob: 0.5
-    - id: Paper
-      prob: 0.5
+#- type: entity
+#  id: BoxFolderSr
+#  parent: BoxFolderBase
+#  name: SR folder
+#  description: A folder filled with paperwork templates.
+#  suffix: Forms
+#  components:
+#  - type: Sprite
+#    layers:
+#    - state: folder-colormap
+#      color: "#1f6626ff"
+#    - state: folder-base
+#  - type: StorageFill
+#    contents:
+#    - id: PaperWrittenFrontierEmployment
+#    - id: PaperWrittenFrontierEmployeePayHistory
+#    - id: PaperWrittenFrontierFundRequisition
+#    - id: PaperWrittenFrontierShuttleTitleChange
+#    - id: PaperWrittenFrontierAuthorization
+#    - id: PaperWrittenFrontierShuttleDerelict
+#    - id: PaperWrittenFrontierContrabandAmnesty
+#    - id: PaperWrittenFrontierContrabandTurnover
+#    - id: PaperWrittenFrontierContrabandPermit
+#    - id: Paper
+#      prob: 0.5
+#    - id: Paper
+#      prob: 0.5
 
 # Forms
 - type: entity # Based on form made by Willzile1 (Jon-Gah)

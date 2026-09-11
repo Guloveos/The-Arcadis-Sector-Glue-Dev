@@ -1,0 +1,55 @@
+- type: job
+  id: StationCommander
+  name: job-name-sc
+  description: job-description-sc
+  playTimeTracker: JobHeadOfPersonnel
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 72000 # 20 hrs
+    - !type:RoleTimeRequirement
+      role: JobSecurityGuard
+      time: 10800 # 3 hrs as security guard
+  whitelisted: false
+  startingGear: ScGear
+  alwaysUseSpawner: true
+  icon: "JobIconHeadOfPersonnel"
+  requireAdminNotify: true
+  supervisors: job-supervisors-centcom
+  weight: 170
+  displayWeight: 60 # Top
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, NFSDTrackingImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+      - type: PreventShipyardTitleOverwrite
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
+
+- type: startingGear
+  id: ScGear
+  equipment:
+    pocket1: NFWeaponEnergyPistolDisabler
+  storage:
+    back:
+    - Flash
+    - RubberStampSr
+    - DoorRemoteCommand
+  encryptionKeys:
+  - EncryptionKeyStationMaster
+
+- type: chameleonOutfit
+  id: StationCommanderChameleonOutfit
+  job: StationCommander
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatSCBeret
+    mask: ClothingMaskBreath
+    neck: ClothingNeckMantleSC
+    outerClothing: ClothingOuterJacketSr
+    gloves: ClothingHandsGlovesHop

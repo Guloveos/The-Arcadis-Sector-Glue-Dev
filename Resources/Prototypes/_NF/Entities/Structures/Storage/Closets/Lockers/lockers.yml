@@ -192,15 +192,15 @@
     access: [["HeadOfSecurity"]]
 
 # SR
-- type: entity
-  id: LockerStationRepresentative
-  parent: [BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, NFLockerBaseSecure, LockerHeadOfPersonnel]
-  name: station representative's locker
-  components:
-  - type: EntityStorageVisuals
-    stateBaseClosed: sr
-    stateDoorOpen: sr_open
-    stateDoorClosed: sr_door
+#- type: entity
+#  id: LockerStationRepresentative
+#  parent: [BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, NFLockerBaseSecure, LockerHeadOfPersonnel]
+#  name: station representative's locker
+#  components:
+#  - type: EntityStorageVisuals
+#    stateBaseClosed: sr
+#    stateDoorOpen: sr_open
+#    stateDoorClosed: sr_door
 
 #Far Star
 

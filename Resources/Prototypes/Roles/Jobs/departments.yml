@@ -76,10 +76,11 @@
   # - ERTSecurity # Frontier
   # - ERTEngineer # Frontier
   # - DeathSquad # Frontier
-  - StationRepresentative # Frontier
+  #- StationRepresentative # Frontier
   - Sheriff # Frontier
   - PlantManager # Frontier
   - StationTrafficController # Frontier
+  - StationCommander # Arcadis
   primary: false
   weight: 100
   editorHidden: true # Frontier

@@ -1,0 +1,74 @@
+- type: entity
+  id: DresserStationCommanderFilled
+  parent: Dresser
+  suffix: Filled, Station Commander
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingNeckMantleSC
+
+- type: entity
+  categories: [ HideSpawnMenu ] # debloat spawn menu
+  id: LockerWallEVAColorSC
+  parent: NFBaseLockerGridInvWallColor
+  name: station commander EVA wall locker
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+      color: "#00076e"
+    - state: fillEva-0
+      map: ["enum.StorageFillLayers.Fill"]
+    - state: door
+      map: ["enum.StorageVisualLayers.Door"]
+      color: "#00076e"
+    - state: door-decal-line-01
+      map: [ decal1 ]
+      color: "#e9d200"
+    - state: door-decal-eva-02
+      map: [ decal2 ]
+      color: "#e9d200"
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+  - type: AccessReader
+    access: [["HeadOfPersonnel"]]
+  - type: StorageFillVisualizer
+    maxFillLevels: 6
+    fillBaseName: fillEva
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitSC
+  description: Contains a standard issue station commander EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: ClothingOuterEVASuitSC
+    - id: JetpackMiniFilled
+    - id: ClothingShoesBootsMag
+    - id: DoubleEmergencyTankO2N2EqualFilled
+
+- type: entity
+  parent: [ LockerWallEVAColorSC, StorageFillEVASuitSC ]
+  id: LockerWallEVAColorSCFilled
+  suffix: Filled
+
+- type: entity
+  parent: GunSafe
+  id: GunSafeSC
+  name: station commander's gun safe
+  suffix: Filled
+  components:
+  - type: AccessReader
+    access: [["HeadOfPersonnel"]]
+  - type: StorageFill
+    contents:
+    - id: WeaponCaseHeavyCdet
+    - id: NFWeaponPistolMk58
+      amount: 1
+    - id: NFMagazinePistol35
+      amount: 2

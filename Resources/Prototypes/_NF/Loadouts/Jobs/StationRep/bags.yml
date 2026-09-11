@@ -1,10 +1,10 @@
 #T0
-- type: loadout
-  id: StationRepClothingBackpackMessengerSr
-  price: 0
-  equipment:
-    back: ClothingBackpackMessengerSr
-  groupBy: "messenger bags"
+#- type: loadout
+#  id: StationRepClothingBackpackMessengerSr
+#  price: 0
+#  equipment:
+#    back: ClothingBackpackMessengerSr
+#  groupBy: "messenger bags"
 
 - type: loadout
   id: StationRepClothingBackpackIan
@@ -13,9 +13,9 @@
     back: ClothingBackpackIan
   groupBy: "backpacks"
 
-- type: loadout
-  id: StationRepClothingBackpackDuffelSr
-  price: 0
-  equipment:
-    back: ClothingBackpackDuffelSr
-  groupBy: "duffels"
+#- type: loadout
+#  id: StationRepClothingBackpackDuffelSr
+#  price: 0
+#  equipment:
+#    back: ClothingBackpackDuffelSr
+#  groupBy: "duffels"

@@ -103,16 +103,16 @@
       MailSecurityNFMusket: 1
       MailNFMedkit: 0.5 # 1 weight total
 
-  jobs:
-    StationRepresentative:
-      MailNFGoldCigars: 0.15 # 0.2 weight total
-      MailCommandNFPlatinumCigars: 0.1
-      MailCommandNFPremiumAlcohol: 0.25
-      MailCommandNFStationPet: 2
-      MailCommandNFPipebombIntern: 1 # TODO: make the "real" pipebomb
-      MailCommandNFWristwatchGold: 0.5
-      MailStationRepNFClurger: 0.5
-      MailStationRepNFNukeDisk: 1
+#  jobs:
+#    StationRepresentative:
+#      MailNFGoldCigars: 0.15 # 0.2 weight total
+#      MailCommandNFPlatinumCigars: 0.1
+#      MailCommandNFPremiumAlcohol: 0.25
+#      MailCommandNFStationPet: 2
+#      MailCommandNFPipebombIntern: 1 # TODO: make the "real" pipebomb
+#      MailCommandNFWristwatchGold: 0.5
+#      MailStationRepNFClurger: 0.5
+#      MailStationRepNFNukeDisk: 1
     Sheriff:
       MailSecurityNonlethalsKit: 2
       MailNFGoldCigars: 0.15 # 0.2 weight total

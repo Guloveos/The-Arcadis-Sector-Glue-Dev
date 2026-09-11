@@ -4231,13 +4231,13 @@ entities:
     - type: Transform
       pos: -2.5,-5.5
       parent: 1
-- proto: DresserStationRepresentativeFilled
-  entities:
-  - uid: 89
-    components:
-    - type: Transform
-      pos: -2.5,-3.5
-      parent: 1
+#- proto: DresserStationRepresentativeFilled
+#  entities:
+#  - uid: 89
+#    components:
+#    - type: Transform
+#      pos: -2.5,-3.5
+#      parent: 1
 - proto: DrinkBlueCuracaoGlass
   entities:
   - uid: 1472

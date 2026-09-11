@@ -62,16 +62,16 @@
   fallbacks:
   - PrisonerForcedClothingOuterEVASuitPrisoner
 
-- type: loadoutGroup
-  id: StationRepForcedOuterClothing
-  name: loadout-group-contractor-outerclothing
-  minLimit: 1
-  maxLimit: 1
-  hidden: true
-  loadouts:
-  - StationRepForcedClothingOuterEVASuitSr
-  fallbacks:
-  - StationRepForcedClothingOuterEVASuitSr
+#- type: loadoutGroup
+#  id: StationRepForcedOuterClothing
+#  name: loadout-group-contractor-outerclothing
+#  minLimit: 1
+#  maxLimit: 1
+#  hidden: true
+#  loadouts:
+#  - StationRepForcedClothingOuterEVASuitSr
+#  fallbacks:
+#  - StationRepForcedClothingOuterEVASuitSr
 
 - type: loadoutGroup
   id: StcForcedOuterClothing

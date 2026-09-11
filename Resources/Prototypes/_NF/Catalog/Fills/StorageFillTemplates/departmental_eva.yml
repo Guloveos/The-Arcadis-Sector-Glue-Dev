@@ -23,17 +23,17 @@
     - id: ClothingShoesBootsMag
     - id: DoubleEmergencyTankO2N2EqualFilled
 
-- type: entity
-  abstract: true
-  id: StorageFillEVASuitSr
-  description: Contains a standard issue station representative EVA kit.
-  components:
-  - type: StorageFill
-    contents:
-    - id: ClothingOuterEVASuitSr
-    - id: JetpackMiniFilled
-    - id: ClothingShoesBootsMag
-    - id: DoubleEmergencyTankO2N2EqualFilled
+#- type: entity
+#  abstract: true
+#  id: StorageFillEVASuitSr
+#  description: Contains a standard issue station representative EVA kit.
+#  components:
+#  - type: StorageFill
+#    contents:
+#    - id: ClothingOuterEVASuitSr
+#    - id: JetpackMiniFilled
+#    - id: ClothingShoesBootsMag
+#    - id: DoubleEmergencyTankO2N2EqualFilled
 
 - type: entity
   abstract: true

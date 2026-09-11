@@ -86,43 +86,43 @@
       - state: clasp-inhand-right
         color: "#f6d56a"
 
-- type: entity
-  parent: ClothingBackpackMessengerContractor
-  id: ClothingBackpackMessengerSr
-  name: station representative's messenger bag
-  description: An exclusive messenger bag for Nanotrasen officers.
-  components:
-  - type: Sprite
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
-    layers:
-    - state: icon-base
-      color: "#2c6a30"
-    - state: icon-sling
-      color: "#fbe6b8"
-    - state: icon-clasp
-      color: "#eca615"
-  - type: Clothing
-    sprite: _NF/Clothing/Back/Messenger/color.rsi
-    clothingVisuals:
-      back:
-      - state: base-equipped-BACKPACK
-        color: "#2c6a30"
-      - state: sling-equipped-BACKPACK
-        color: "#fbe6b8"
-      - state: clasp-equipped-BACKPACK
-        color: "#eca615"
-  - type: Item
-    inhandVisuals:
-      left:
-      - state: base-inhand-left
-        color: "#2c6a30"
-      - state: clasp-inhand-left
-        color: "#eca615"
-      right:
-      - state: base-inhand-right
-        color: "#2c6a30"
-      - state: clasp-inhand-right
-        color: "#eca615"
+#- type: entity
+#  parent: ClothingBackpackMessengerContractor
+#  id: ClothingBackpackMessengerSr
+#  name: station representative's messenger bag
+#  description: An exclusive messenger bag for Nanotrasen officers.
+#  components:
+#  - type: Sprite
+#    sprite: _NF/Clothing/Back/Messenger/color.rsi
+#    layers:
+#    - state: icon-base
+#      color: "#2c6a30"
+#    - state: icon-sling
+#      color: "#fbe6b8"
+#    - state: icon-clasp
+#      color: "#eca615"
+#  - type: Clothing
+#    sprite: _NF/Clothing/Back/Messenger/color.rsi
+#    clothingVisuals:
+#      back:
+#      - state: base-equipped-BACKPACK
+#        color: "#2c6a30"
+#      - state: sling-equipped-BACKPACK
+#        color: "#fbe6b8"
+#      - state: clasp-equipped-BACKPACK
+#        color: "#eca615"
+#  - type: Item
+#    inhandVisuals:
+#      left:
+#      - state: base-inhand-left
+#        color: "#2c6a30"
+#      - state: clasp-inhand-left
+#        color: "#eca615"
+#      right:
+#      - state: base-inhand-right
+#        color: "#2c6a30"
+#      - state: clasp-inhand-right
+#        color: "#eca615"
 
 #region Engineering
 - type: entity

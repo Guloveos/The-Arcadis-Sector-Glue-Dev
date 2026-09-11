@@ -1,0 +1,358 @@
+# Head
+- type: entity
+  parent: ClothingHeadHatHopcap
+  id: ClothingHeadHatSCBeret
+  name: station commander's beret
+  description: A Sturdy beret, fit for a station commander.
+  components:
+  - type: Sprite
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_beret.rsi
+  - type: Clothing
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_beret.rsi
+  - type: CatWearable
+
+- type: entity
+  parent: ClothingHeadHatHopcap
+  id: ClothingHeadHatSCCap
+  name: station commander's cap
+  description: A cap for the capta- I mean commander of the station.
+  components:
+  - type: Sprite
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_cap.rsi
+  - type: Clothing
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_cap.rsi
+  - type: HamsterWearable
+
+- type: entity
+  parent: [NFBaseClothingWristset, ClothingHeadsetAltCentCom]
+  id: ClothingWristsetSC
+  name: station commander's wristset
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#00076e"
+    - state: icon-decal-02
+      color: "#e9d200"
+    - state: icon-unshaded
+      color: "#525252"
+      shader: unshaded
+    - state: icon-buttons
+  - type: Clothing
+    clothingVisuals:
+      ears:
+      - state: equipped-EARS
+        color: "#00076e"
+      - state: equipped-EARS-unshaded
+        color: "#525252"
+        shader: unshaded
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyStationMaster
+
+# Neck
+- type: entity
+  parent: ClothingNeckMantleHOP
+  id: ClothingNeckMantleSC
+  name: station commander's mantle
+  description: The mantle of the person in control of this side of the wormhole. A symbol of authority and respect.
+  components:
+  - type: Sprite
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_mantle.rsi
+  - type: Clothing
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_mantle.rsi
+
+- type: entity
+  parent: ClothingNeckCloakHop
+  id: ClothingNeckCloakSC
+  name: station commander's cloak
+  description: A cloak given to the station's commander. each one is unique for that commaders assignment. This one represents the wormhole.
+  components:
+  - type: Sprite
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_cloak.rsi
+
+# Outer Clothing
+- type: entity
+  parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
+  id: ClothingOuterJacketSC
+  name: station commander's jacket
+  description: A jacket the station commander wears. A visual representation of the weight on their shoulders.
+  components:
+  - type: Sprite
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_jacket.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_jacket.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+
+# Armor
+- type: entity
+  parent: [ ClothingOuterBaseLarge, BaseC2ContrabandUnredeemable ]
+  id: ClothingOuterArmorSCCarapace
+  name: station commander's carapace
+  description: The station commander's carapace, protecting them from the dangers this side of the wormhole brings.
+  components:
+  - type: Sprite
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_carapace.rsi
+  - type: Clothing
+    sprite: _ARC/Clothing/Command/Station-Commander/sc_carapace.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.7
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.60
+  - type: GroupExamine
+
+# Space Suit
+- type: entity
+  parent: NFDepartmentalEVASuit
+  id: ClothingOuterEVASuitSC
+  name: station commander EVA suit
+  description: An EVA suit with a built-in helmet commonly issued by a station commander.
+  components:
+  - type: Sprite
+    layers:
+    - state: icon-base
+      color: "#00076e"
+    - state: icon-decals-01
+      color: "#e9d200"
+    - state: icon-reinforced-points
+      color: "#3e3e48"
+    - state: icon-breathing-gear
+    - state: icon-unshaded
+      shader: unshaded
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-base
+        color: "#00076e"
+      - state: inhand-left-decals-01
+        color: "#e9d200"
+      - state: inhand-left-reinforced-points
+        color: "#3e3e48"
+      - state: inhand-left-breathing-gear
+      - state: inhand-left-unshaded
+        shader: unshaded
+      right:
+      - state: inhand-right-base
+        color: "#00076e"
+      - state: inhand-right-decals-01
+        color: "#e9d200"
+      - state: inhand-right-reinforced-points
+        color: "#3e3e48"
+      - state: inhand-right-breathing-gear
+      - state: inhand-right-unshaded
+        shader: unshaded
+  - type: Clothing
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-base
+        color: "#00076e"
+      - state: equipped-decals-01
+        color: "#e9d200"
+      - state: equipped-reinforced-points
+        color: "#3e3e48"
+      - state: equipped-breathing-gear
+      - state: equipped-unshaded
+        shader: unshaded
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadEVAHelmetSC
+  - type: CatWearable
+
+- type: entity
+  parent: ClothingHeadEVAHelmetWithLightBase
+  id: ClothingHeadEVAHelmetSC
+  name: station commander EVA helmet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    layers:
+    - state: icon-base
+      color: "#00076e"
+    - state: icon-reinforced-points
+      color: "#3e3e48"
+    - state: icon-decals-02
+      color: "#e9d200"
+    - state: icon-visor
+      color: "#fbe6b8"
+  - type: Clothing
+    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-head-base
+        color: "#00076e"
+      - state: equipped-head-reinforced-points
+        color: "#3e3e48"
+      - state: equipped-head-decals-02
+        color: "#e9d200"
+      - state: equipped-head-visor
+        color: "#fbe6b8"
+  - type: PointLight
+    radius: 5
+    energy: 2
+  - type: CatWearable # Frontier
+
+# Pouch
+- type: entity
+  id: PouchSC
+  parent: NFPouchUtility
+  name: station's commander pouch
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+      color: "#00076e"
+    - state: closed
+      map: ["closeLayer"]
+      color: "#00076e"
+    - state: open
+      color: "#00076e"
+      map: ["openLayer"]
+      visible: false
+    - state: inside
+      color: "#fff4e2"
+      map: ["insideLayer"]
+      visible: false
+    - state: fill-util4-1
+      map: [ "pouchFill4" ]
+      visible: false
+    - state: fill-util3-1
+      map: [ "pouchFill3" ]
+      visible: false
+    - state: fill-util2-1
+      map: [ "pouchFill2" ]
+      visible: false
+    - state: fill-util1-1
+      map: [ "pouchFill1" ]
+      visible: false
+    - state: decal-line-01
+      map: [ "decal1" ]
+      color: "#e9d200"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#00076e"
+      right:
+      - state: inhand-right
+        color: "#00076e"
+  - type: Clothing
+    clothingVisuals:
+      belt:
+      - state: equipped-BELT
+        color: "#00076e"
+      pocket:
+      - state: equipped-BELT
+        color: "#00076e"
+
+# Bags
+
+- type: entity
+  parent: NFClothingDuffel
+  id: ClothingBackpackDuffelSC
+  name: station commander duffel
+  description: A beautiful duffelbag fit for someone who has earned it.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    layers:
+    - state: icon-base
+      color: "#00076e"
+    - state: icon-sling
+      color: "#fbe6b8"
+    - state: icon-decal-straps
+      color: "#e9d200"
+    - state: icon-handle
+      color: "#fbe6b8"
+    - state: icon-zipper
+  - type: Clothing
+    sprite: _NF/Clothing/Back/Duffels/color.rsi
+    clothingVisuals:
+      back:
+      - state: equipped-BACKPACK-base
+        color: "#00076e"
+      - state: equipped-BACKPACK-sling
+        color: "#fbe6b8"
+      - state: equipped-BACKPACK-decal-straps
+        color: "#e9d200"
+      - state: equipped-BACKPACK-handle
+        color: "#fbe6b8"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-base
+        color: "#00076e"
+      - state: inhand-left-sling
+        color: "#fbe6b8"
+      - state: inhand-left-decal-straps
+        color: "#e9d200"
+      - state: inhand-left-handle
+        color: "#fbe6b8"
+      - state: inhand-left-zipper
+      right:
+      - state: inhand-right-base
+        color: "#00076e"
+      - state: inhand-right-sling
+        color: "#fbe6b8"
+      - state: inhand-right-decal-straps
+        color: "#e9d200"
+      - state: inhand-right-handle
+        color: "#fbe6b8"
+      - state: inhand-right-zipper
+
+- type: entity
+  parent: [ ClothingBackpackDuffelSC, StorageFillEVASuitSC ]
+  id: ClothingBackpackDuffelEVABundleSC
+  name: station commander EVA bundle
+  suffix: Filled
+
+- type: entity
+  parent: ClothingBackpackMessengerContractor
+  id: ClothingBackpackMessengerSC
+  name: station commander's messenger bag
+  description: An exclusive messenger bag for Nanotrasen officers.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    layers:
+    - state: icon-base
+      color: "#00076e"
+    - state: icon-sling
+      color: "#fbe6b8"
+    - state: icon-clasp
+      color: "#e9d200"
+  - type: Clothing
+    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    clothingVisuals:
+      back:
+      - state: base-equipped-BACKPACK
+        color: "#00076e"
+      - state: sling-equipped-BACKPACK
+        color: "#fbe6b8"
+      - state: clasp-equipped-BACKPACK
+        color: "#e9d200"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: base-inhand-left
+        color: "#00076e"
+      - state: clasp-inhand-left
+        color: "#e9d200"
+      right:
+      - state: base-inhand-right
+        color: "#00076e"
+      - state: clasp-inhand-right
+        color: "#e9d200"

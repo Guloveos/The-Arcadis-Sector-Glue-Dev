@@ -38,21 +38,21 @@
     color: "#0077C1"
 
 # region Command
-- type: entity
-  parent: DefaultStationBeaconCommand
-  id: DefaultStationBeaconFrontierSROffice
-  suffix: SR's Office
-  components:
-  - type: NavMapBeacon
-    defaultText: station-beacon-sr-office
+#- type: entity
+#  parent: DefaultStationBeaconCommand
+#  id: DefaultStationBeaconFrontierSROffice
+#  suffix: SR's Office
+#  components:
+#  - type: NavMapBeacon
+#    defaultText: station-beacon-sr-office
 
-- type: entity
-  parent: DefaultStationBeaconCommand
-  id: DefaultStationBeaconFrontierSRQuarters
-  suffix: SR's Quarters
-  components:
-  - type: NavMapBeacon
-    defaultText: station-beacon-sr-quarters
+#- type: entity
+#  parent: DefaultStationBeaconCommand
+#  id: DefaultStationBeaconFrontierSRQuarters
+#  suffix: SR's Quarters
+#  components:
+#  - type: NavMapBeacon
+#    defaultText: station-beacon-sr-quarters
 
 - type: entity
   parent: DefaultStationBeaconCommand
@@ -330,14 +330,14 @@
     defaultText: station-beacon-lobby
     color: "#add8e6"
 
-- type: entity
-  parent: DefaultStationBeaconFrontierSROffice
-  id: DefaultStationBeaconFrontierDoCOffice
-  suffix: DoC's Office
-  components:
-  - type: NavMapBeacon
-    defaultText: station-beacon-doc-office
-    color: "#add8e6"
+#- type: entity
+#  parent: DefaultStationBeaconFrontierSROffice
+#  id: DefaultStationBeaconFrontierDoCOffice
+#  suffix: DoC's Office
+#  components:
+#  - type: NavMapBeacon
+#    defaultText: station-beacon-doc-office
+#    color: "#add8e6"
 
 # region Docks
 - type: entity

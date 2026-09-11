@@ -176,13 +176,13 @@
     - state: gold
     - state: ert_mailcarrier
 
-- type: entity
-  parent: [HoPIDCard, BaseCommandContraband]
-  id: SrIDCard
-  name: station representative ID card
-  components:
-  - type: PresetIdCard
-    job: StationRepresentative
+#- type: entity
+#  parent: [HoPIDCard, BaseCommandContraband]
+#  id: SrIDCard
+#  name: station representative ID card
+#  components:
+#  - type: PresetIdCard
+#    job: StationRepresentative
 
 - type: entity
   parent: ValetIDCard

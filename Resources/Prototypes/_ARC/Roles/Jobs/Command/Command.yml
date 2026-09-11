@@ -1,0 +1,22 @@
+# Jumpsuits
+- type: entity
+  parent: ClothingUniformJumpsuitHoP
+  id: ClothingUniformJumpsuitCommand
+  name: Command uniform
+  description: A sleek uniform for the station's command staff. To wear this uniform is to have shown the utmost trust and admiration from central command.
+  components:
+  - type: Sprite
+    sprite: _ARC/Clothing/Command/Command-Whole/Command-Uniform.rsi
+  - type: Clothing
+    sprite: _ARC/Clothing/Command/Command-Whole/Command-Uniform.rsi
+
+- type: entity
+  parent: ClothingUniformJumpskirtHoP
+  id: ClothingUniformJumpskirtCommand
+  name: Command uniform
+  description: A sleek uniform for the station's command staff. To wear this uniform is to have shown the utmost trust and admiration from central command.
+  components:
+  - type: Sprite
+    sprite: _ARC/Clothing/Command/Command-Whole/Command-Uniform-Skirt.rsi
+  - type: Clothing
+    sprite: _ARC/Clothing/Command/Command-Whole/Command-Uniform-Skirt.rsi

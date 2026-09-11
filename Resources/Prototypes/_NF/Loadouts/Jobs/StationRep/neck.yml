@@ -1,14 +1,14 @@
 #T0
-- type: loadout
-  id: StationRepClothingNeckCloakSr
-  price: 0
-  equipment:
-    neck: ClothingNeckCloakSr
-  groupBy: "NeckCloaks"
+#- type: loadout
+#  id: StationRepClothingNeckCloakSr
+#  price: 0
+#  equipment:
+#    neck: ClothingNeckCloakSr
+#  groupBy: "NeckCloaks"
 
-- type: loadout
-  id: StationRepClothingNeckMantleSr
-  price: 0
-  equipment:
-    neck: ClothingNeckMantleSr
-  groupBy: "NeckMantles"
+#- type: loadout
+#  id: StationRepClothingNeckMantleSr
+#  price: 0
+#  equipment:
+#    neck: ClothingNeckMantleSr
+#  groupBy: "NeckMantles"

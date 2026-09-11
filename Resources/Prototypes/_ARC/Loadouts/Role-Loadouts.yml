@@ -1,0 +1,31 @@
+- type: roleLoadout
+  id: JobStationCommander
+  groups:
+  - StationRepHead
+#  - StationRepNeck
+  - StationRepJumpsuit
+  - StationRepGloves
+  - StationRepBackpack
+  - StationRepOuterClothing
+  - StationRepForcedOuterClothing
+  - ContractorShoes
+  - ContractorFace
+  - StationRepGlasses
+  - StationRepBelt
+  - StationRepEars
+  - ContractorBoxSurvival
+  - StationRepPDA
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - StationRepBackpackItems
+  - ContractorHandItems
+  - ContractorSupportPets
+  - NFSpeciesSpecific
+
+- type: loadoutEffectGroup
+  id: NFNotStationRep
+  effects:
+  - !type:RoleBlacklistLoadoutEffect
+    blacklist:
+    - JobStationCommander

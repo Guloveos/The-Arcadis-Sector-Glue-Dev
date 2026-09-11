@@ -1,15 +1,15 @@
-- type: entity
-  id: DresserStationRepresentativeFilled
-  parent: Dresser
-  suffix: Filled, Station Representative
-  components:
-  - type: StorageFill
-    contents:
-      - id: ClothingNeckMantleSr
-      - id: ClothingHeadHatSrCap
-      - id: ClothingOuterJacketSr
-      - id: ClothingUniformJumpsuitSr
-      - id: ClothingUniformJumpskirtSr
-      - id: ClothingUniformJumpsuitSecGuard
-      - id: ClothingUniformJumpskirtSecGuard
-      - id: ClothingShoesLeather
+#- type: entity
+#  id: DresserStationRepresentativeFilled
+#  parent: Dresser
+#  suffix: Filled, Station Representative
+#  components:
+#  - type: StorageFill
+#    contents:
+#      - id: ClothingNeckMantleSr
+#      - id: ClothingHeadHatSrCap
+#      - id: ClothingOuterJacketSr
+#      - id: ClothingUniformJumpsuitSr
+#      - id: ClothingUniformJumpskirtSr
+#      - id: ClothingUniformJumpsuitSecGuard
+#      - id: ClothingUniformJumpskirtSecGuard
+#      - id: ClothingShoesLeather

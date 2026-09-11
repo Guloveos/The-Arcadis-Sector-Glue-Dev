@@ -1,50 +1,50 @@
 #region Command
 # SR PDW racks
-- type: entity
-  id: StructurePistolRackLockSR
-  parent: StructurePistolRackLock
-  suffix: SR, Empty
-  components:
-  - type: Sprite
-    layers:
-    - state: base-pistol
-      color: "#1f6626"
-    - state: lock
-      color: "#1f6626"
-    - state: base-pistol-decal
-      color: "#f1b223"
-    - state: pistol-0
-    - map: ["enum.StorageFillLayers.Fill"]
-    - state: locked
-      map: [ enum.LockVisualLayers.Lock ]
-      shader: unshaded
-  - type: AccessReader
-    access: [ ["HeadOfPersonnel"] ]
-  - type: Lock
-    locked: true
+#- type: entity
+#  id: StructurePistolRackLockSR
+#  parent: StructurePistolRackLock
+#  suffix: SR, Empty
+#  components:
+#  - type: Sprite
+#    layers:
+#    - state: base-pistol
+#      color: "#1f6626"
+#    - state: lock
+#      color: "#1f6626"
+#    - state: base-pistol-decal
+#      color: "#f1b223"
+#    - state: pistol-0
+#    - map: ["enum.StorageFillLayers.Fill"]
+#    - state: locked
+#      map: [ enum.LockVisualLayers.Lock ]
+#      shader: unshaded
+#  - type: AccessReader
+#    access: [ ["HeadOfPersonnel"] ]
+#  - type: Lock
+#    locked: true
 
-- type: entity
-  id: StructurePistolRackLockSRWallmounted
-  parent: StructurePistolRackLockWallmounted
-  suffix: SR, Empty, Wallmount
-  components:
-  - type: Sprite
-    layers:
-    - state: base-pistol-wall
-      color: "#1f6626"
-    - state: lock
-      color: "#1f6626"
-    - state: base-pistol-wall-decal
-      color: "#f1b223"
-    - state: pistol-0
-    - map: ["enum.StorageFillLayers.Fill"]
-    - state: locked
-      map: [ enum.LockVisualLayers.Lock ]
-      shader: unshaded
-  - type: AccessReader
-    access: [ ["HeadOfPersonnel"] ]
-  - type: Lock
-    locked: true
+#- type: entity
+#  id: StructurePistolRackLockSRWallmounted
+#  parent: StructurePistolRackLockWallmounted
+#  suffix: SR, Empty, Wallmount
+#  components:
+#  - type: Sprite
+#    layers:
+#    - state: base-pistol-wall
+#      color: "#1f6626"
+#    - state: lock
+#      color: "#1f6626"
+#    - state: base-pistol-wall-decal
+#      color: "#f1b223"
+#    - state: pistol-0
+#    - map: ["enum.StorageFillLayers.Fill"]
+#    - state: locked
+#      map: [ enum.LockVisualLayers.Lock ]
+#      shader: unshaded
+#  - type: AccessReader
+#    access: [ ["HeadOfPersonnel"] ]
+#  - type: Lock
+#    locked: true
 
 # Sheriff PDW racks
 - type: entity

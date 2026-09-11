@@ -1,0 +1,1 @@
+arc-holopad-general-arcadis-station-commander = Arcadis Station Commander's Office

@@ -22,33 +22,33 @@
   description: An updated, modular intercom worn on the wrist. It accepts encryption keys.
 
 # region frontier command
-- type: entity
-  parent: [NFBaseClothingWristset, ClothingHeadsetAltCentCom]
-  id: NFClothingWristsetSr
-  name: station representative wristset
-  components:
-  - type: Sprite
-    layers:
-    - state: icon
-      color: "#1f6626ff"
-    - state: icon-decal-02
-      color: "#f1b223ff"
-    - state: icon-unshaded
-      color: "#2e9935ff"
-      shader: unshaded
-    - state: icon-buttons
-  - type: Clothing
-    clothingVisuals:
-      ears:
-      - state: equipped-EARS
-        color: "#1f6626ff"
-      - state: equipped-EARS-unshaded
-        color: "#2e9935ff"
-        shader: unshaded
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - EncryptionKeyStationMaster
+#- type: entity
+#  parent: [NFBaseClothingWristset, ClothingHeadsetAltCentCom]
+#  id: NFClothingWristsetSr
+#  name: station representative wristset
+#  components:
+#  - type: Sprite
+#    layers:
+#    - state: icon
+#      color: "#1f6626ff"
+#    - state: icon-decal-02
+#      color: "#f1b223ff"
+#    - state: icon-unshaded
+#      color: "#2e9935ff"
+#      shader: unshaded
+#    - state: icon-buttons
+#  - type: Clothing
+#    clothingVisuals:
+#      ears:
+#      - state: equipped-EARS
+#        color: "#1f6626ff"
+#      - state: equipped-EARS-unshaded
+#        color: "#2e9935ff"
+#        shader: unshaded
+#  - type: ContainerFill
+#    containers:
+#      key_slots:
+#      - EncryptionKeyStationMaster
 
 - type: entity
   parent: [NFBaseClothingWristset, BaseCommandContraband]

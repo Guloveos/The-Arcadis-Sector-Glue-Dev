@@ -447,7 +447,7 @@
   - ContractorClothingBeltMartialBlack
   - ContractorClothingBeltPunkRandomized # Punkish (Randomized visuals)
   - ContractorClothingBeltPunkRandomizedFilled # Punkish (Randomized visuals)
-  - ContractorClothingBeltSheathFilledHilt
+#  - ContractorClothingBeltSheathFilledHilt
   - ContractorClothingBeltChampion
 
 - type: loadoutGroup

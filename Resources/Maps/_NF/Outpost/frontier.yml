@@ -6279,14 +6279,14 @@ entities:
     - type: Transform
       pos: 12.810785,16.716284
       parent: 2173
-- proto: BoxFolderSr
-  entities:
-  - uid: 2039
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 8.009785,21.581205
-      parent: 2173
+#- proto: BoxFolderSr
+#  entities:
+#  - uid: 2039
+#    components:
+#    - type: Transform
+#      rot: 3.141592653589793 rad
+#      pos: 8.009785,21.581205
+#      parent: 2173
 - proto: BoxFolderWhite
   entities:
   - uid: 2232
@@ -14761,20 +14761,20 @@ entities:
     - type: Transform
       pos: -0.5,8.5
       parent: 2173
-- proto: DefaultStationBeaconFrontierSROffice
-  entities:
-  - uid: 5183
-    components:
-    - type: Transform
-      pos: 7.5,21.5
-      parent: 2173
-- proto: DefaultStationBeaconFrontierSRQuarters
-  entities:
-  - uid: 5837
-    components:
-    - type: Transform
-      pos: 23.5,11.5
-      parent: 2173
+#- proto: DefaultStationBeaconFrontierSROffice
+#  entities:
+#  - uid: 5183
+#    components:
+#    - type: Transform
+#      pos: 7.5,21.5
+#      parent: 2173
+#- proto: DefaultStationBeaconFrontierSRQuarters
+#  entities:
+#  - uid: 5837
+#    components:
+#    - type: Transform
+#      pos: 23.5,11.5
+#      parent: 2173
 - proto: DefaultStationBeaconJanitorsCloset
   entities:
   - uid: 5155
@@ -17108,13 +17108,13 @@ entities:
     - type: Transform
       pos: 9.5,21.5
       parent: 2173
-- proto: DresserStationRepresentativeFilled
-  entities:
-  - uid: 4998
-    components:
-    - type: Transform
-      pos: 26.5,11.5
-      parent: 2173
+#- proto: DresserStationRepresentativeFilled
+#  entities:
+#  - uid: 4998
+#    components:
+#    - type: Transform
+#      pos: 26.5,11.5
+#      parent: 2173
 - proto: DrinkDriestMartiniGlass
   entities:
   - uid: 4288
@@ -27289,34 +27289,34 @@ entities:
     - type: Transform
       pos: 32.5,10.5
       parent: 2173
-- proto: GunSafeSr
-  entities:
-  - uid: 4274
-    components:
-    - type: Transform
-      anchored: True
-      pos: 7.5,23.5
-      parent: 2173
-    - type: Physics
-      bodyType: Static
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14923
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
+#- proto: GunSafeSr
+#  entities:
+#  - uid: 4274
+#    components:
+#    - type: Transform
+#      anchored: True
+#      pos: 7.5,23.5
+#      parent: 2173
+#    - type: Physics
+#      bodyType: Static
+#    - type: EntityStorage
+#      air:
+#        volume: 200
+#        immutable: False
+#        temperature: 293.14923
+#        moles:
+#        - 1.7459903
+#        - 6.568249
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
 - proto: HandheldGPSBasic
   entities:
   - uid: 4455
@@ -27646,31 +27646,31 @@ entities:
     - type: Transform
       pos: 40.502724,18.50681
       parent: 2173
-- proto: LockerStationRepresentativeFilled
-  entities:
-  - uid: 4969
-    components:
-    - type: Transform
-      pos: 8.50093,23.502323
-      parent: 2173
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14923
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
+#- proto: LockerStationRepresentativeFilled
+#  entities:
+#  - uid: 4969
+#    components:
+#    - type: Transform
+#      pos: 8.50093,23.502323
+#      parent: 2173
+#    - type: EntityStorage
+#      air:
+#        volume: 200
+#        immutable: False
+#        temperature: 293.14923
+#        moles:
+#        - 1.7459903
+#        - 6.568249
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
+#        - 0
 - proto: LockerWallMaterialsBasicFilled
   entities:
   - uid: 360
@@ -27963,13 +27963,13 @@ entities:
     - type: Transform
       pos: -0.5,12.5
       parent: 2173
-- proto: NFHolopadFrontierOutpostSR
-  entities:
-  - uid: 2197
-    components:
-    - type: Transform
-      pos: 6.5,19.5
-      parent: 2173
+#- proto: NFHolopadFrontierOutpostSR
+#  entities:
+#  - uid: 2197
+#    components:
+#    - type: Transform
+#      pos: 6.5,19.5
+#      parent: 2173
 - proto: NFHolopadFrontierOutpostSTC
   entities:
   - uid: 2133
@@ -31717,13 +31717,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -6.498917,7.2824607
       parent: 2173
-- proto: SignDirectionalSr
-  entities:
-  - uid: 1712
-    components:
-    - type: Transform
-      pos: 4.502248,29.284199
-      parent: 2173
+#- proto: SignDirectionalSr
+#  entities:
+#  - uid: 1712
+#    components:
+#    - type: Transform
+#      pos: 4.502248,29.284199
+#      parent: 2173
   - uid: 2034
     components:
     - type: Transform
@@ -32153,13 +32153,13 @@ entities:
     - type: Transform
       pos: 38.5,16.5
       parent: 2173
-- proto: SpawnPointStationRepresentative
-  entities:
-  - uid: 767
-    components:
-    - type: Transform
-      pos: 14.5,15.5
-      parent: 2173
+#- proto: SpawnPointStationRepresentative
+#  entities:
+#  - uid: 767
+#    components:
+#    - type: Transform
+#      pos: 14.5,15.5
+#      parent: 2173
 - proto: SpawnPointStc
   entities:
   - uid: 730

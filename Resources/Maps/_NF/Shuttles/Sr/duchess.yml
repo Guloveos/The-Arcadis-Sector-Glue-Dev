@@ -1918,21 +1918,21 @@ entities:
     - type: Transform
       pos: 0.5,9.5
       parent: 2
-- proto: LockerStationRepresentative
-  entities:
-  - uid: 30
-    components:
-    - type: Transform
-      pos: 1.5,7.5
-      parent: 2
-- proto: LockerWallEVAColorSrFilled
-  entities:
-  - uid: 292
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 0.5,4.5
-      parent: 2
+#- proto: LockerStationRepresentative
+#  entities:
+#  - uid: 30
+#    components:
+#    - type: Transform
+#      pos: 1.5,7.5
+#      parent: 2
+#- proto: LockerWallEVAColorSrFilled
+#  entities:
+#  - uid: 292
+#    components:
+#    - type: Transform
+#      rot: 1.5707963267948966 rad
+#      pos: 0.5,4.5
+#      parent: 2
 - proto: LockerWallMaterialsFuelPlasmaFilled
   entities:
   - uid: 81
@@ -2411,20 +2411,20 @@ entities:
     - type: Transform
       pos: 1.5,8.5
       parent: 2
-- proto: SignDirectionalSr
-  entities:
-  - uid: 305
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 6.5,-1.5
-      parent: 2
-  - uid: 306
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -3.5,-1.5
-      parent: 2
+#- proto: SignDirectionalSr
+#  entities:
+#  - uid: 305
+#    components:
+#    - type: Transform
+#      rot: -1.5707963267948966 rad
+#      pos: 6.5,-1.5
+#      parent: 2
+#  - uid: 306
+#    components:
+#    - type: Transform
+#      rot: 1.5707963267948966 rad
+#      pos: -3.5,-1.5
+#      parent: 2
 - proto: SmallThruster
   entities:
   - uid: 91

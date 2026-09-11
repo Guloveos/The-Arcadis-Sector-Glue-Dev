@@ -59,15 +59,15 @@
   - Brand
   - ClothesNF
 
-- type: latheRecipe
-  id: ClothingHeadHatSrCap
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingHeadHatSrCap
+#- type: latheRecipe
+#  id: ClothingHeadHatSrCap
+#  parent: NFBaseJumpsuitRecipe
+#  result: ClothingHeadHatSrCap
 
-- type: latheRecipe
-  id: ClothingHeadHatSrBeret
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingHeadHatSrBeret
+#- type: latheRecipe
+#  id: ClothingHeadHatSrBeret
+#  parent: NFBaseJumpsuitRecipe
+#  result: ClothingHeadHatSrBeret
 
 - type: latheRecipe
   id: ClothingHeadHatNfsdSmallCampaign
@@ -595,10 +595,10 @@
   parent: NFBaseJumpsuitRecipe
   result: ClothingUniformJumpsuitSr
 
-- type: latheRecipe
-  id: ClothingUniformJumpsuitMilitarySr
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingUniformJumpsuitMilitarySr
+#- type: latheRecipe
+#  id: ClothingUniformJumpsuitMilitarySr
+#  parent: NFBaseJumpsuitRecipe
+#  result: ClothingUniformJumpsuitMilitarySr
 
 - type: latheRecipe
   id: ClothingUniformJumpsuitMailCarrier
@@ -842,10 +842,10 @@
   parent: NFBaseJumpsuitRecipe
   result: ClothingUniformJumpskirtPrivateSec
 
-- type: latheRecipe
-  id: ClothingUniformJumpskirtSr
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingUniformJumpskirtSr
+#- type: latheRecipe
+#  id: ClothingUniformJumpskirtSr
+#  parent: NFBaseJumpsuitRecipe
+#  result: ClothingUniformJumpskirtSr
 
 - type: latheRecipe
   id: ClothingUniformJumpskirtMailCarrier
@@ -909,10 +909,10 @@
   parent: NFBaseJumpsuitRecipe # very thin, not a coat
   result: ClothingOuterHospitalGown
 
-- type: latheRecipe
-  id: ClothingOuterJacketSr
-  parent: NFBaseCoatRecipe
-  result: ClothingOuterJacketSr
+#- type: latheRecipe
+#  id: ClothingOuterJacketSr
+#  parent: NFBaseCoatRecipe
+#  result: ClothingOuterJacketSr
 
 - type: latheRecipe
   id: ClothingOuterWinterCoatMail
@@ -1076,15 +1076,15 @@
   parent: NFBaseJumpsuitRecipe
   result: ClothingNeckMantleSheriff
 
-- type: latheRecipe
-  id: ClothingNeckCloakSr
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakSr
+#- type: latheRecipe
+#  id: ClothingNeckCloakSr
+#  parent: NFBaseJumpsuitRecipe
+#  result: ClothingNeckCloakSr
 
-- type: latheRecipe
-  id: ClothingNeckMantleSr
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckMantleSr
+#- type: latheRecipe
+#  id: ClothingNeckMantleSr
+#  parent: NFBaseJumpsuitRecipe
+#  result: ClothingNeckMantleSr
 
 - type: latheRecipe
   id: ClothingNeckCloakEnby
@@ -1272,10 +1272,10 @@
   parent: NFBaseBeltRecipe
   result: NFPouchCargo
 
-- type: latheRecipe
-  id: NFPouchSr
-  parent: NFBaseBeltRecipe
-  result: NFPouchSr
+#- type: latheRecipe
+#  id: NFPouchSr
+#  parent: NFBaseBeltRecipe
+#  result: NFPouchSr
 
 # region Gloves
 - type: latheRecipe

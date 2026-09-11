@@ -154,18 +154,18 @@
   recipes:
   # SR
   - ClothingUniformJumpsuitSr
-  - ClothingUniformJumpskirtSr
-  - ClothingUniformJumpsuitMilitarySr
-  - ClothingOuterJacketSr
+  #- ClothingUniformJumpskirtSr
+  #- ClothingUniformJumpsuitMilitarySr
+  #- ClothingOuterJacketSr
   # - ClothingBackpackDuffelSr
   # - ClothingBackpackMessengerSr
   # - ClothingBackpackIan
-  - ClothingHeadHatSrCap
-  - ClothingHeadHatSrBeret
-  - ClothingNeckCloakSr
-  - ClothingNeckMantleSr
+  #- ClothingHeadHatSrCap
+  #- ClothingHeadHatSrBeret
+  #- ClothingNeckCloakSr
+  #- ClothingNeckMantleSr
   - ClothingHandsGlovesSr
-  - NFPouchSr
+  #- NFPouchSr
   # NFSD
   - ClothingUniformJumpsuitNfsd
   - ClothingUniformJumpsuitNfsdShort

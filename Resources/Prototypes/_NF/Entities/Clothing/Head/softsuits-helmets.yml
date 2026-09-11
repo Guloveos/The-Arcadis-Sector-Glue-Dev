@@ -150,39 +150,39 @@
   - type: CatWearable # Frontier
 
 #region Command
-- type: entity
-  parent: ClothingHeadEVAHelmetWithLightBase
-  id: ClothingHeadEVAHelmetSr
-  name: station representative EVA helmet
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
-    layers:
-    - state: icon-base
-      color: "#194214"
-    - state: icon-reinforced-points
-      color: "#3e3e48"
-    - state: icon-decals-02
-      color: "#f2b833"
-    - state: icon-visor
-      color: "#fbe6b8"
-  - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
-    clothingVisuals:
-      head:
-      - state: equipped-head-base
-        color: "#194214"
-      - state: equipped-head-reinforced-points
-        color: "#3e3e48"
-      - state: equipped-head-decals-02
-        color: "#f2b833"
-      - state: equipped-head-visor
-        color: "#fbe6b8"
-  - type: PointLight
-    radius: 5
-    energy: 2
-  - type: CatWearable # Frontier
+#- type: entity
+#  parent: ClothingHeadEVAHelmetWithLightBase
+#  id: ClothingHeadEVAHelmetSr
+#  name: station representative EVA helmet
+#  categories: [ HideSpawnMenu ]
+#  components:
+#  - type: Sprite
+#    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+#    layers:
+#    - state: icon-base
+#      color: "#194214"
+#    - state: icon-reinforced-points
+#      color: "#3e3e48"
+#    - state: icon-decals-02
+#      color: "#f2b833"
+#    - state: icon-visor
+#      color: "#fbe6b8"
+#  - type: Clothing
+#    sprite: _NF/Clothing/Head/Helmets/eva_color.rsi
+#    clothingVisuals:
+#      head:
+#      - state: equipped-head-base
+#        color: "#194214"
+#      - state: equipped-head-reinforced-points
+#        color: "#3e3e48"
+#      - state: equipped-head-decals-02
+#        color: "#f2b833"
+#      - state: equipped-head-visor
+#        color: "#fbe6b8"
+#  - type: PointLight
+#    radius: 5
+#    energy: 2
+#  - type: CatWearable # Frontier
 
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
